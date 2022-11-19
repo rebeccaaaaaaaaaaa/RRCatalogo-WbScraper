@@ -1,8 +1,11 @@
+import {FonePage} from './pages/Fones'
+import { ContainerBox } from './template/ContainerBox';
+
 function App() {
   return (
-    <div className="App">
-      ola
-    </div>
+    <ContainerBox>
+      <FonePage />
+    </ContainerBox>
   );
 }
 
